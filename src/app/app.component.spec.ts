@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'calendar-giriraj' title`, () => {
+  it(`should have the 'calendar_gp' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('calendar-giriraj');
+    expect(app.title).toEqual('calendar_gp');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, calendar-giriraj');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, calendar_gp');
   });
 });

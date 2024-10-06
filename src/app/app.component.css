@@ -1,0 +1,106 @@
+.cal-container {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.border-top-bold {
+  border-top: 2px solid #000000;
+}
+.border-right-bold {
+  border-right: 2px solid #000000;
+}
+.border-left-bold {
+  border-left: 2px solid #000000;
+}
+.border-bottom-bold {
+  border-bottom: 2px solid #000000;
+}
+
+.sun {
+  color: red;
+}
+
+.thirty {
+  color: rgb(228, 186, 228);
+}
+.thirty-one {
+  color: teal;
+}
+.twenty-eight,
+.twenty-nine {
+  color: yellow;
+}
+
+.cal-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.cal {
+  min-width: 100px;
+  min-height: 100px;
+  border: 2px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  border: none;
+}
+
+th,
+td {
+  border: 1px solid black;
+}
+
+th:first-child, td:first-child {
+  border-left: none;
+}
+
+th:last-child, td:last-child {
+  border-right: none;
+}
+
+tr:first-child td {
+  border-top: none;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+.left {
+  width: 166px;
+}
+
+.header,
+.content {
+  display: flex;
+}
+
+.header .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.left td {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.right td {
+  width: 72px;
+  height: 30px;
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
